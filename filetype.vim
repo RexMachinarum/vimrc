@@ -9,7 +9,8 @@ augroup END
 
 "Txt/Markdown Specific Settings
 augroup TEXT
-	autocmd BufRead *.md *.txt set colorcolumn:80
+	autocmd BufRead *.md  set colorcolumn:80
+	autocmd BufRead *.txt set colorcolumn:80
 augroup END
 
 "LambdaC Specific Settings
