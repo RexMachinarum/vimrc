@@ -3,6 +3,9 @@ let mapleader=','
 nnoremap J :tabprev<return>
 nnoremap K :tabnext<return>
 
+"Search Keybinds
+nnoremap <C-c> :noh<return>
+
 "Window Keybinds
 nnoremap <leader>q :q!<return>
 
